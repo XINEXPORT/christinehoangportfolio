@@ -19,6 +19,14 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import django from "./assets/techstack/django.png";
+import express from "./assets/techstack/express.png";
+import nodejs from "./assets/techstack/nodejs.png";
+import python from "./assets/techstack/python.png";
+import lodash from "./assets/techstack/lodash.png";
+import postgresql from "./assets/techstack/postgresql.png";
+import typescript from "./assets/techstack/typescript.png";
+
 // Porject Images
 import projectImage1 from "./assets/projects/project1.jpg";
 import projectImage2 from "./assets/projects/project2.jpg";
@@ -36,7 +44,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Christine",
-  tagline: "I build things for web",
+  tagline: "I build things for the web",
   img: profile,
   about: `I am an enthusiastic Software Engineer with an eye for detail, efficient design, and customer excellence. With a passion for making products that brings joy and ease, I strive for the highest quality and delivery for individuals and businesses.`,
 };
@@ -122,20 +130,27 @@ export const eduDetails = [
 
 // Tech Stack and Tools
 export const techStackDetails = {
+  react: react,
+  js: js,
   html: html,
   css: css,
-  js: js,
-  react: react,
+  tailwind: tailwind,
   redux: redux,
   sass: sass,
-  tailwind: tailwind,
   bootstrap: bootstrap,
+  django: django,
   vscode: vscode,
   postman: postman,
   npm: npm,
   git: git,
   github: github,
   figma: figma,
+  express: express,
+  nodejs: nodejs,
+  python: python,
+  lodash: lodash,
+  postgresql: postgresql,
+  typescript: typescript,
 };
 
 // Enter your Project Details here
