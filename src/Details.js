@@ -184,8 +184,8 @@ export const projectDetails = [
     image: texascodingclub,
     description: `Texas Coding Club is a collaborative blog site made by Joe Aguado and Christine Hoang. The blog discusses topics related to technology, learning new skills, and networking opportunities.`,
     techstack: "React, JavaScript, Tailwind CSS, Vite, Github, npm",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://www.texascodingclub.com/",
+    githubLink: "https://github.com/XINEXPORT/vite-ghpages",
   },
   {
     title: "Guess the Animal",
