@@ -1,17 +1,24 @@
 module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  darkMode: "class",
   theme: {
     extend: {
       fontFamily: {
         primary: "Poppins, sans-serif",
       },
       colors: {
-        "light-content": "#A7A7A7",
+        //light mode
+        "light-content": "#000000", 
+        "light-heading": "#000000", 
+        "light-bg": "#FFFFFF", 
+        
+        //dark mode
         "dark-heading": "#1f2428",
         "dark-content": "#666666",
-        "light-heading": "#CCCCCC",
-        "dark-mode": "#191919",
+        "dark-bg": "#191919",
         "dark-card": "#363636",
+
+        //shared colors
         "green-text": "#018C0F",
         "greenbg": "#D7FFE0",
       },
