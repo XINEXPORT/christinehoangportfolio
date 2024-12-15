@@ -67,8 +67,8 @@ function Home() {
         </h1>
         <h1
           ref={h12}
-          className="text-2xl bg-clip-text bg-gradient text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
-        >
+          className="text-2xl bg-clip-text bg-gradient-to-r from-blue-500 to-pink-700 text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+          >
           {name}
         </h1>
         <h2
