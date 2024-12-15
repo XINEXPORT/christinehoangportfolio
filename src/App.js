@@ -7,7 +7,6 @@ import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
 function App() {
-  
   return (
     <Router>
       <Header />

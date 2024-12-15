@@ -19,7 +19,7 @@ function Home() {
         duration: 2,
         ease: "Power3.easeOut",
       },
-      "<"
+      "<",
     )
       .from(
         h12.current,
@@ -30,7 +30,7 @@ function Home() {
           duration: 2,
           ease: "Power3.easeOut",
         },
-        "<"
+        "<",
       )
       .from(
         h13.current,
@@ -41,7 +41,7 @@ function Home() {
           duration: 2,
           ease: "Power3.easeOut",
         },
-        "<"
+        "<",
       )
       .from(
         myimageref.current,
@@ -52,7 +52,7 @@ function Home() {
           duration: 2,
           ease: "Power3.easeOut",
         },
-        "<"
+        "<",
       );
   }, []);
 
@@ -79,7 +79,12 @@ function Home() {
         </h2>
       </div>
       <div className="mt-5 md:mt-0 mb-5">
-        <img ref={myimageref} className="w-1/2 md:ml-auto" src={img} alt="Chistine Hoang" />
+        <img
+          ref={myimageref}
+          className="w-1/2 md:ml-auto"
+          src={img}
+          alt="Chistine Hoang"
+        />
       </div>
     </main>
   );

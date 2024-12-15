@@ -178,11 +178,11 @@ export const techStackDetails = {
   netcore: netcore,
   docker: docker,
   mssqlserver: mssqlserver,
-  R:R,
+  R: R,
   swagger: swagger,
   azuredevops: azuredevops,
   socketio: socketio,
-  jquery
+  jquery,
 };
 
 // Enter your Project Details here
@@ -191,7 +191,8 @@ export const projectDetails = [
     title: "CareBuddy",
     image: carebuddy,
     description: `CareBuddy is an AI Healthcare chat companion that can recommend lifestyle tips and nutrition recommendations for individuals seeking a healthier lifestyle.`,
-    techstack: "React, JavaScript, Sass, Bootstrap, MaterialUI, ExpressJS, NodeJS, Axios, Vite, OpenAI",
+    techstack:
+      "React, JavaScript, Sass, Bootstrap, MaterialUI, ExpressJS, NodeJS, Axios, Vite, OpenAI",
     previewLink: "https://www.youtube.com/watch?v=Y253UFw9eD8",
     githubLink: "https://github.com/XINEXPORT/chatgpt-ai-healthapp",
   },
@@ -199,7 +200,8 @@ export const projectDetails = [
     title: "Zest",
     image: zest,
     description: `Zest is a grocery management tool with built-in ingredient tracker, recipe integration, and macro calculator.`,
-    techstack: "React Native, JavaScript, Styled-Components, Python, Django, Django ORM, ECS/Docker, Supabase, PostgreSQL, Figma, Miro, Jira, Github",
+    techstack:
+      "React Native, JavaScript, Styled-Components, Python, Django, Django ORM, ECS/Docker, Supabase, PostgreSQL, Figma, Miro, Jira, Github",
     previewLink: "https://www.youtube.com/watch?v=j5szZXsyxWs",
     githubLink: "https://github.com/XINEXPORT/dsd-grocery",
   },
@@ -215,7 +217,8 @@ export const projectDetails = [
     title: "Guess the Animal",
     image: guesstheanimal,
     description: `Guess the Animal is an online interactive children’s game where a user matches an animal sound to a corresponding image.`,
-    techstack: "React, JavaScript, CSS, Boostrap, Express.js, Node.js, Sequelize, PostgreSQL, Axios, Redux, Lodash, Multer, Morgan, Miro",
+    techstack:
+      "React, JavaScript, CSS, Boostrap, Express.js, Node.js, Sequelize, PostgreSQL, Axios, Redux, Lodash, Multer, Morgan, Miro",
     previewLink: "https://youtu.be/Xuk3jwRTQCk",
     githubLink: "https://github.com/XINEXPORT/guesstheanimal",
   },
@@ -223,7 +226,8 @@ export const projectDetails = [
     title: "Vibes",
     image: vibes,
     description: `Vibes is a dynamic social platform enabling users to generate live audio soundscape performances in interactive rooms, fostering real-time collaboration between hosts and listeners.`,
-    techstack: "React, JavaScript, CSS, Express.js, Node.js, Sequelize, PostgreSQL, Vite, Axios, Socket.io, Multer, Redux, npm",
+    techstack:
+      "React, JavaScript, CSS, Express.js, Node.js, Sequelize, PostgreSQL, Vite, Axios, Socket.io, Multer, Redux, npm",
     previewLink: "https://dallas-ft3-vibes.onrender.com/",
     githubLink: "https://github.com/XINEXPORT/Vibes",
   },
@@ -235,15 +239,15 @@ export const projectDetails = [
     previewLink: "https://the-record-shop.onrender.com/",
     githubLink: "https://github.com/XINEXPORT/record-shop",
   },
-//   {
-//     title: "Project title 6",
-//     image: projectImage6,
-//     description: `This is sample project description random things are here in description This is sample
-// project lorem ipsum generator for dummy content`,
-//     techstack: "HTML/CSS, JavaScript",
-//     previewLink: "https://google.com",
-//     githubLink: "https://github.com",
-//   },
+  //   {
+  //     title: "Project title 6",
+  //     image: projectImage6,
+  //     description: `This is sample project description random things are here in description This is sample
+  // project lorem ipsum generator for dummy content`,
+  //     techstack: "HTML/CSS, JavaScript",
+  //     previewLink: "https://google.com",
+  //     githubLink: "https://github.com",
+  //   },
 ];
 
 // Enter your Contact Details here

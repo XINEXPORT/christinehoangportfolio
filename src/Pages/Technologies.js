@@ -21,7 +21,7 @@ function Technologies() {
     express,
     nodejs,
     python,
-    lodash, 
+    lodash,
     postgresql,
     typescript,
     axios,
@@ -35,7 +35,7 @@ function Technologies() {
     swagger,
     azuredevops,
     socketio,
-    jquery
+    jquery,
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 mb-20 px-4 lg:px-8">
@@ -48,11 +48,11 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6 glass mb-8">
-      <img src={react} title="React" alt="React" />
-      <img src={js} title="JavaScript" alt="JavaScript" />
-      <img src={python} title="Python" alt="Python" />
-      <img src={csharp} title="C#" alt="C#" />
-      <img src={R} title="R" alt="R" />
+        <img src={react} title="React" alt="React" />
+        <img src={js} title="JavaScript" alt="JavaScript" />
+        <img src={python} title="Python" alt="Python" />
+        <img src={csharp} title="C#" alt="C#" />
+        <img src={R} title="R" alt="R" />
         <img src={html} title="html" alt="HTML" />
         <img src={css} title="CSS" alt="CSS" />
         <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS" />
@@ -62,14 +62,13 @@ function Technologies() {
         <img src={express} title="Express" alt="Bootstrap" />
         <img src={nodejs} title="NodeJS" alt="NodeJS" />
         <img src={django} title="Django" alt="Django" />
-        <img src={lodash} title="Lodash" alt="Lodash" />        
+        <img src={lodash} title="Lodash" alt="Lodash" />
         <img src={redux} title="Redux" alt="Redux" />
         <img src={socketio} title="Socket.IO" alt="Socket.IO" />
         <img src={axios} title="Axios" alt="Axios" />
         <img src={postgresql} title="PostgreSQL" alt="PostgreSQL" />
         <img src={mssqlserver} title="MS SQL Server" alt="MS SQL Server" />
         <img src={vitejs} title="Vite.JS" alt="Vite.JS" />
-
       </section>
       <section>
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
