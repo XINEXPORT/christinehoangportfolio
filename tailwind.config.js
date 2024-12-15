@@ -21,6 +21,10 @@ module.exports = {
         //shared colors
         "green-text": "#018C0F",
         "greenbg": "#D7FFE0",
+
+        backgroundImage:{
+          "gradient": "linear-gradient(100deg, #8381f9 0%, #f3a6b5 30%)",
+        }
       },
     },
   },
