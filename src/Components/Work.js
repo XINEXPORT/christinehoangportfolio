@@ -1,11 +1,24 @@
 import React from "react";
 
 function Work({ position, company, location, type, duration }) {
+
+  const getTypeClass = (jobType) =>{
+    switch(jobType.toLowerCase()){
+      case "full time":
+        return "bg-green-500 text-white";
+      case "apprenticeship":
+        return "bg-blue-400 text-white";
+      default:
+        return "bg-gray-300 text-black"; 
+    }
+  }
+
   return (
     <article className="pt-8 border-b-2 border-dark-content pb-5 dark:border-light-content border-opacity-20 dark:border-opacity-20">
       <div className="flex justify-between items-center">
         <h1 className="text-content md:text-lg lg:text-xl">{position}</h1>
-        <div className="btn bg-greenbg text-green-text text-xs inline-block rounded-3xl px-3 py-1 min-w-fit">
+        <div
+          className={`btn text-xs inline-block rounded-3xl px-3 py-1 min-w-fit ${getTypeClass(type)}`}>
           {type}
         </div>
       </div>

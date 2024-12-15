@@ -28,12 +28,13 @@ import postgresql from "./assets/techstack/postgresql.png";
 import typescript from "./assets/techstack/typescript.png";
 
 // Porject Images
-import projectImage1 from "./assets/projects/project1.jpg";
-import projectImage2 from "./assets/projects/project2.jpg";
-import projectImage3 from "./assets/projects/project3.jpg";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
+import zest from "./assets/projects/zest.jpg";
+import texascodingclub from "./assets/projects/texascodingclub.jpg";
+import guesstheanimal from "./assets/projects/guesstheanimal.jpg";
+import vibes from "./assets/projects/vibes.jpg";
+import recordshop from "./assets/projects/recordshop.jpg";
 import projectImage6 from "./assets/projects/project6.jpg";
+import carebuddy from "./assets/projects/carebuddy.jpg";
 
 // Logos
 export const logos = {
@@ -60,11 +61,11 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Software Engineer",
-    Company: `Texas Coding Club`,
+    Position: "Web Developer",
+    Company: `Games for Love`,
     Location: "Dallas, TX",
-    Type: "Full Time",
-    Duration: "Feb 2024 - present",
+    Type: "Part Time",
+    Duration: "December 2024 - present",
   },
   {
     Position: "Web Application Administrator",
@@ -156,8 +157,16 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
+    title: "CareBuddy",
+    image: carebuddy,
+    description: `CareBuddy is an AI Healthcare chat companion that can recommend lifestyle tips and nutrition recommendations for individuals seeking a healthier lifestyle.`,
+    techstack: "React, JavaScript, Sass, Bootstrap, MaterialUI, ExpressJS, NodeJS, Axios, Vite, OpenAI",
+    previewLink: "https://www.youtube.com/watch?v=Y253UFw9eD8",
+    githubLink: "https://github.com/XINEXPORT/chatgpt-ai-healthapp",
+  },
+  {
     title: "Zest",
-    image: projectImage1,
+    image: zest,
     description: `Zest is a grocery management tool with built-in ingredient tracker, recipe integration, and macro calculator.`,
     techstack: "React Native, JavaScript, Styled-Components, Python, Django, Django ORM, ECS/Docker, Supabase, PostgreSQL, Figma, Miro, Jira, Github",
     previewLink: "https://www.youtube.com/watch?v=j5szZXsyxWs",
@@ -165,7 +174,7 @@ export const projectDetails = [
   },
   {
     title: "Texas Coding Club",
-    image: projectImage2,
+    image: texascodingclub,
     description: `Texas Coding Club is a collaborative blog site made by Joe Aguado and Christine Hoang. The blog discusses topics related to technology, learning new skills, and networking opportunities.`,
     techstack: "React, JavaScript, Tailwind CSS, Vite, Github, npm",
     previewLink: "https://google.com",
@@ -173,7 +182,7 @@ export const projectDetails = [
   },
   {
     title: "Guess the Animal",
-    image: projectImage3,
+    image: guesstheanimal,
     description: `Guess the Animal is an online interactive children’s game where a user matches an animal sound to a corresponding image.`,
     techstack: "React, JavaScript, CSS, Boostrap, Express.js, Node.js, Sequelize, PostgreSQL, Axios, Redux, Lodash, Multer, Morgan, Miro",
     previewLink: "https://youtu.be/Xuk3jwRTQCk",
@@ -181,15 +190,15 @@ export const projectDetails = [
   },
   {
     title: "Vibes",
-    image: projectImage4,
-    description: `Vibes is a dynamic social platform enabling users to generate live audio soundscape performances in interactive sound rooms, fostering real-time collaboration between hosts and listeners.`,
+    image: vibes,
+    description: `Vibes is a dynamic social platform enabling users to generate live audio soundscape performances in interactive rooms, fostering real-time collaboration between hosts and listeners.`,
     techstack: "React, JavaScript, CSS, Express.js, Node.js, Sequelize, PostgreSQL, Vite, Axios, Socket.io, Multer, Redux, npm",
     previewLink: "https://dallas-ft3-vibes.onrender.com/",
     githubLink: "https://github.com/XINEXPORT/Vibes",
   },
   {
     title: "The Record Shop",
-    image: projectImage5,
+    image: recordshop,
     description: `The Record Shop is a web app where vinyl collectors can upload their records and publish them to an online store for viewing.`,
     techstack: "React, JavaScript, CSS, Express.js, Node.js, Axios, Vite, npm",
     previewLink: "https://the-record-shop.onrender.com/",
