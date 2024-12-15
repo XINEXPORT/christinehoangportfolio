@@ -26,6 +26,18 @@ import python from "./assets/techstack/python.png";
 import lodash from "./assets/techstack/lodash.png";
 import postgresql from "./assets/techstack/postgresql.png";
 import typescript from "./assets/techstack/typescript.png";
+import axios from "./assets/techstack/axios.png";
+import vitejs from "./assets/techstack/vitejs.png";
+import visualstudio from "./assets/techstack/visualstudio.png";
+import csharp from "./assets/techstack/csharp.png";
+import netcore from "./assets/techstack/netcore.png";
+import docker from "./assets/techstack/docker.png";
+import mssqlserver from "./assets/techstack/mssqlserver.png";
+import R from "./assets/techstack/R.png";
+import swagger from "./assets/techstack/swagger.png";
+import azuredevops from "./assets/techstack/azuredevops.png";
+import socketio from "./assets/techstack/socketio.png";
+import jquery from "./assets/techstack/jquery.png";
 
 // Porject Images
 import zest from "./assets/projects/zest.jpg";
@@ -159,6 +171,18 @@ export const techStackDetails = {
   lodash: lodash,
   postgresql: postgresql,
   typescript: typescript,
+  axios: axios,
+  vitejs: vitejs,
+  visualstudio: visualstudio,
+  csharp: csharp,
+  netcore: netcore,
+  docker: docker,
+  mssqlserver: mssqlserver,
+  R:R,
+  swagger: swagger,
+  azuredevops: azuredevops,
+  socketio: socketio,
+  jquery
 };
 
 // Enter your Project Details here

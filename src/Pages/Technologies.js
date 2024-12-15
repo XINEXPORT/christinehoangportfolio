@@ -24,6 +24,18 @@ function Technologies() {
     lodash, 
     postgresql,
     typescript,
+    axios,
+    vitejs,
+    visualstudio,
+    csharp,
+    netcore,
+    docker,
+    mssqlserver,
+    R,
+    swagger,
+    azuredevops,
+    socketio,
+    jquery
   } = techStackDetails;
   return (
     <main className="container mx-auto max-width pt-10 pb-20 ">
@@ -35,21 +47,28 @@ function Technologies() {
           Technologies I've been working with recently
         </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6">
       <img src={react} title="React" alt="React" />
       <img src={js} title="JavaScript" alt="JavaScript" />
-      <img src={typescript} title="Typescript" alt="Typescript" />
+      <img src={python} title="Python" alt="Python" />
+      <img src={csharp} title="C#" alt="C#" />
+      <img src={R} title="R" alt="R" />
         <img src={html} title="html" alt="HTML" />
         <img src={css} title="CSS" alt="CSS" />
         <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS" />
-        <img src={bootstrap} title="Bootstrap" alt="" />
+        <img src={sass} title="Sass" alt="Sass" />
+        <img src={bootstrap} title="Bootstrap" alt="Bootstrap" />
+        <img src={jquery} title="jQuery" alt="jQuery" />
         <img src={express} title="Express" alt="Bootstrap" />
         <img src={nodejs} title="NodeJS" alt="NodeJS" />
         <img src={django} title="Django" alt="Django" />
-        <img src={python} title="Python" alt="Python" />
         <img src={lodash} title="Lodash" alt="Lodash" />        
         <img src={redux} title="Redux" alt="Redux" />
+        <img src={socketio} title="Socket.IO" alt="Socket.IO" />
+        <img src={axios} title="Axios" alt="Axios" />
         <img src={postgresql} title="PostgreSQL" alt="PostgreSQL" />
+        <img src={mssqlserver} title="MS SQL Server" alt="MS SQL Server" />
+        <img src={vitejs} title="Vite.JS" alt="Vite.JS" />
 
       </section>
       <section>
@@ -57,13 +76,18 @@ function Technologies() {
           Tools
         </h1>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6">
+        <img src={visualstudio} title="Visual Studio" alt="Visual Studio" />
         <img src={vscode} title="Visual Studio Code" alt="Visual Studio Code" />
+        <img src={azuredevops} title="Azure DevOps" alt="Azure DevOps" />
+        <img src={netcore} title=".NET Core" alt=".NET Core" />
+        <img src={docker} title="Docker" alt="Docker" />
         <img src={git} title="Git" alt="Git" />
         <img src={github} title="Github" alt="Github" />
         <img src={figma} title="Figma" alt="Figma" />
         <img src={npm} title="NPM" alt="NPM" />
         <img src={postman} title="Postman" alt="Postman" />
+        <img src={swagger} title="Swagger" alt="Swagger" />
       </section>
     </main>
   );
