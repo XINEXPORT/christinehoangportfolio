@@ -4,7 +4,7 @@ import { contactDetails } from "../Details";
 function Contact() {
   const { email, phone } = contactDetails;
   return (
-    <main className="container mx-auto max-width section">
+    <main className="container mx-auto max-width section glass">
       <h1 className="text-center text-2xl md:text-3xl lg:text-6xl text-dark-heading dark:text-light-heading font-semibold md:font-bold">
         For any questions, email me at
       </h1>
