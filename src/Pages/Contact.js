@@ -18,7 +18,7 @@ function Contact() {
       </h3>
 
       <span className="text-center text-content text-xl font-light block"></span>
-      
+
       <h3
         className="text-center text-3xl md:text-4xl lg:text-6xl 
         bg-gradient-to-r from-blue-500 to-pink-700 bg-clip-text text-transparent 
