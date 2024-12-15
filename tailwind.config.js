@@ -24,7 +24,16 @@ module.exports = {
 
         backgroundImage:{
           "gradient": "linear-gradient(100deg, #8381f9 0%, #f3a6b5 30%)",
-        }
+        },
+        boxShadow: {
+          glass: "0 8px 32px 0 rgba(31, 38, 135, 0.37)", 
+        },
+        backdropBlur: {
+          sm: "4px", 
+        borderRadius: {
+          glass: "10px", 
+        },
+        },
       },
     },
   },

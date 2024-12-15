@@ -16,6 +16,9 @@
 .section {
   @apply pt-28 xl:pt-28 2xl:pt-44;
 }
+.glass {
+  @apply bg-white bg-opacity-25 shadow-lg backdrop-blur-sm border border-white border-opacity-20 rounded-lg p-8;
+}
 .text-content {
   @apply dark:text-light-content text-dark-content;
 }
