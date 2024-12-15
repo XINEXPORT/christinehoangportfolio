@@ -38,16 +38,16 @@ function Technologies() {
     jquery
   } = techStackDetails;
   return (
-    <main className="container mx-auto max-width pt-10 pb-20 ">
+    <main className="container mx-auto max-width pt-10 pb-20">
       <section>
         <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tech Stack
         </h1>
-        <p className="text-content py-2 lg:max-w-3xl">
+        <p className="text-content py-2 lg:max-w-3xl mb-4">
           Technologies I've been working with recently
         </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6">
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6 glass mb-8">
       <img src={react} title="React" alt="React" />
       <img src={js} title="JavaScript" alt="JavaScript" />
       <img src={python} title="Python" alt="Python" />
@@ -75,8 +75,11 @@ function Technologies() {
         <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tools
         </h1>
+        <p className="text-content py-2 lg:max-w-3xl mb-4">
+          Frameworks, Platforms, & Librairies
+        </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6">
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6 glass mb-8">
         <img src={visualstudio} title="Visual Studio" alt="Visual Studio" />
         <img src={vscode} title="Visual Studio Code" alt="Visual Studio Code" />
         <img src={azuredevops} title="Azure DevOps" alt="Azure DevOps" />
