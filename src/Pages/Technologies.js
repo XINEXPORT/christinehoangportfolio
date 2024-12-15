@@ -36,20 +36,20 @@ function Technologies() {
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-      <img src={react} title="React" alt="" />
-      <img src={js} title="JavaScript" alt="" />
-      <img src={typescript} title="Typescript" alt="" />
-        <img src={html} title="html" alt="" />
-        <img src={css} title="CSS" alt="" />
-        <img src={tailwind} title="Tailwind CSS" alt="" />
+      <img src={react} title="React" alt="React" />
+      <img src={js} title="JavaScript" alt="JavaScript" />
+      <img src={typescript} title="Typescript" alt="Typescript" />
+        <img src={html} title="html" alt="HTML" />
+        <img src={css} title="CSS" alt="CSS" />
+        <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS" />
         <img src={bootstrap} title="Bootstrap" alt="" />
-        <img src={express} title="Express" alt="" />
-        <img src={nodejs} title="NodeJS" alt="" />
-        <img src={django} title="Django" alt="" />
-        <img src={python} title="Python" alt="" />
-        <img src={lodash} title="Lodash" alt="" />        
-        <img src={redux} title="Redux" alt="" />
-        <img src={postgresql} title="PostgreSQL" alt="" />
+        <img src={express} title="Express" alt="Bootstrap" />
+        <img src={nodejs} title="NodeJS" alt="NodeJS" />
+        <img src={django} title="Django" alt="Django" />
+        <img src={python} title="Python" alt="Python" />
+        <img src={lodash} title="Lodash" alt="Lodash" />        
+        <img src={redux} title="Redux" alt="Redux" />
+        <img src={postgresql} title="PostgreSQL" alt="PostgreSQL" />
 
       </section>
       <section>
@@ -58,7 +58,7 @@ function Technologies() {
         </h1>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-6 items-center gap-10 pt-6">
-        <img src={vscode} title="Visual Studio Code" alt="" />
+        <img src={vscode} title="Visual Studio Code" alt="Visual Studio Code" />
         <img src={git} title="Git" alt="Git" />
         <img src={github} title="Github" alt="Github" />
         <img src={figma} title="Figma" alt="Figma" />

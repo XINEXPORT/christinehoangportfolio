@@ -45,7 +45,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
   name: "Christine",
-  tagline: "I build things for the web",
+  tagline: "I am a Software Engineer based in Dallas",
   img: profile,
   about: `I am an enthusiastic Software Engineer with an eye for detail, efficient design, and customer excellence. With a passion for making products that brings joy and ease, I strive for the highest quality and delivery for individuals and businesses.`,
 };
@@ -68,14 +68,21 @@ export const workDetails = [
     Duration: "December 2024 - present",
   },
   {
-    Position: "Web Application Administrator",
+    Position: "Application Administrator",
     Company: `City of Grand Prairie`,
     Location: "Dallas, TX",
     Type: "Full Time",
     Duration: "Apr 2024 - present",
   },
   {
-    Position: "Web Application Engineer",
+    Position: "Software Engineer",
+    Company: `Dallas AI`,
+    Location: "Dallas, TX",
+    Type: "Apprenticeship",
+    Duration: "June 2024 - August 2024",
+  },
+  {
+    Position: "Software Engineer",
     Company: `Dallas Software Developers Group`,
     Location: "Dallas, TX",
     Type: "Apprenticeship",
@@ -217,5 +224,5 @@ export const projectDetails = [
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "christinehoangt@gmail.com",
+  email: "christine.hoang@gamesforlove.org",
 };
