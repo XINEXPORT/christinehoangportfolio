@@ -81,9 +81,9 @@ function Home() {
       <div className="mt-5 md:mt-0 mb-5">
         <img
           ref={myimageref}
-          className="w-1/2 md:ml-auto"
+          className="w-1/2 md:ml-auto rounded-card-lg"
           src={img}
-          alt="Chistine Hoang"
+          alt="Christine Hoang"
         />
       </div>
     </main>

@@ -23,16 +23,20 @@ module.exports = {
         "greenbg": "#D7FFE0",
       },
       backgroundImage: {
-        "gradient": "linear-gradient(100deg, #8381f9 0%, #f3a6b5 30%)",
+        gradient: "linear-gradient(100deg, #8381f9 0%, #f3a6b5 30%)",
+        "card-gradient":
+          "linear-gradient(45deg, rgba(238, 80, 101, 0.5), rgba(0, 0, 255, 0.5))",
       },
       boxShadow: {
-        glass: "0 8px 32px 0 rgba(31, 38, 135, 0.37)", 
+        glass: "0 8px 32px 0 rgba(31, 38, 135, 0.37)",
+        "card-shadow": "12px 12px 20px 1px rgba(0, 0, 255, 0.2)",
       },
       backdropBlur: {
-        sm: "4px", 
+        sm: "4px",
       },
       borderRadius: {
-        glass: "10px", 
+        glass: "10px",
+        "card-lg": "2em",
       },
     },
   },
