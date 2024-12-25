@@ -37,6 +37,7 @@ function Technologies() {
     socketio,
     jquery,
   } = techStackDetails;
+
   return (
     <main className="container mx-auto max-width mb-20 px-4 lg:px-8">
       <section>
@@ -47,14 +48,15 @@ function Technologies() {
           Technologies I've been working with recently
         </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6 glass mb-8">
+
+      {/* Apply wrapper class */}
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-6 pt-6 glass mb-8 img-wrapper">
         <img src={react} title="React" alt="React" />
         <img src={js} title="JavaScript" alt="JavaScript" />
         <img src={python} title="Python" alt="Python" />
         <img src={csharp} title="C#" alt="C#" />
         <img src={R} title="R" alt="R" />
-        <img src={html} title="html" alt="HTML" />
-        <img src={css} title="CSS" alt="CSS" />
+        <img src={html} title="HTML" alt="HTML" />
         <img src={tailwind} title="Tailwind CSS" alt="Tailwind CSS" />
         <img src={sass} title="Sass" alt="Sass" />
         <img src={bootstrap} title="Bootstrap" alt="Bootstrap" />
@@ -70,6 +72,7 @@ function Technologies() {
         <img src={mssqlserver} title="MS SQL Server" alt="MS SQL Server" />
         <img src={vitejs} title="Vite.JS" alt="Vite.JS" />
       </section>
+
       <section>
         <h1 className="text-2xl pt-10 text-black md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tools
@@ -78,7 +81,8 @@ function Technologies() {
           Frameworks, Platforms, & Libraries
         </p>
       </section>
-      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6 glass mb-8">
+
+      <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-6 pt-6 glass mb-8 img-wrapper">
         <img src={visualstudio} title="Visual Studio" alt="Visual Studio" />
         <img src={vscode} title="Visual Studio Code" alt="Visual Studio Code" />
         <img src={azuredevops} title="Azure DevOps" alt="Azure DevOps" />

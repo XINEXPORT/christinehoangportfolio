@@ -38,6 +38,11 @@ module.exports = {
         glass: "10px",
         "card-lg": "2em",
       },
+      imgWrapper: {
+        "& img": {
+          "@apply w-16 h-16 md:w-20 md:h-20": {},
+        },
+      },
     },
   },
   plugins: [],

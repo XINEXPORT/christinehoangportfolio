@@ -84,7 +84,7 @@ export const workDetails = [
     Position: "Application Administrator",
     Company: `City of Grand Prairie`,
     Company_Link: "https://www.gptx.org/Home",
-    Location: "Dallas, TX",
+    Location: "Grand Prairie, TX",
     Type: "Full Time",
     Duration: "Apr 2024 - present",
   },
