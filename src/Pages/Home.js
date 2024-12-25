@@ -57,37 +57,41 @@ function Home() {
   }, []);
 
   return (
-    <main className="container mx-auto max-width section md:flex justify-between items-center glass">
-    <div className="flex-1">
-      <h1
-        ref={h11}
-        className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
-      >
-        Hi,<br />My Name is<br />
-      </h1>
-      <h1
-        ref={h12}
-        className="text-2xl bg-clip-text bg-gradient-to-r from-blue-500 to-pink-700 text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
-      >
-        {name}
-      </h1>
-      <h2
-        ref={h13}
-        className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold mb-5"
-      >
-        {tagline}
-      </h2>
-    </div>
-  
-    <div className="flex-1 flex justify-end">
-      <img
-        ref={myimageref}
-        className="w-1/2 md:w-1/3 rounded-card-lg"
-        src={img}
-        alt="Christine Hoang"
-      />
-    </div>
-  </main>
+    <main className="container max-width section md:flex justify-between items-center px-4 lg:px-8 py-10">
+      <div className="flex-1">
+        <h1
+          ref={h11}
+          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+        >
+          Hi,
+          <br />
+          My Name is
+          <br />
+        </h1>
+        <h1
+          ref={h12}
+          className="text-2xl bg-clip-text bg-gradient-to-r from-blue-500 to-pink-700 text-transparent md:text-4xl xl:text-5xl xl:leading-tight font-bold"
+        >
+          {name}
+        </h1>
+        <h2
+          ref={h13}
+          className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold mb-5"
+        >
+          {tagline}
+        </h2>
+      </div>
+
+      {/* Right Section: Image */}
+      <div className="md:mt-0 flex-1 flex justify-center md:justify-end">
+        <img
+          ref={myimageref}
+          className="w-3/4 md:w-1/2 lg:w-2/3 rounded-card-lg"
+          src={img}
+          alt="Christine Hoang"
+        />
+      </div>
+    </main>
   );
 }
 
