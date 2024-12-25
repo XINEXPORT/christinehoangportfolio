@@ -75,6 +75,7 @@ export const workDetails = [
   {
     Position: "Web Developer",
     Company: `Games for Love`,
+    Company_Link: "https://gamesforlove.org/",
     Location: "Dallas, TX",
     Type: "Part Time",
     Duration: "December 2024 - present",
@@ -82,6 +83,7 @@ export const workDetails = [
   {
     Position: "Application Administrator",
     Company: `City of Grand Prairie`,
+    Company_Link: "https://www.gptx.org/Home",
     Location: "Dallas, TX",
     Type: "Full Time",
     Duration: "Apr 2024 - present",
@@ -89,6 +91,7 @@ export const workDetails = [
   {
     Position: "Software Engineer",
     Company: `Dallas AI`,
+    Company_Link: "https://dallas-ai.org/",
     Location: "Dallas, TX",
     Type: "Apprenticeship",
     Duration: "June 2024 - August 2024",
@@ -96,6 +99,7 @@ export const workDetails = [
   {
     Position: "Software Engineer",
     Company: `Dallas Software Developers Group`,
+    Company_Link: "https://www.dallassoftwaredevelopers.org/",
     Location: "Dallas, TX",
     Type: "Apprenticeship",
     Duration: "March 2024 - April 2024",
@@ -103,6 +107,7 @@ export const workDetails = [
   {
     Position: "Full Stack Web Developer",
     Company: `Devmountain`,
+    Company_Link: "https://devmountain.com/",
     Location: "Dallas, TX",
     Type: "Full Time",
     Duration: "Nov 2023 - Feb 2024",
@@ -110,6 +115,7 @@ export const workDetails = [
   {
     Position: "Back-End and Data Engineering Product Manager",
     Company: `Syufy Enterprises`,
+    Company_Link: "https://www.villasport.com/",
     Location: "San Rafael, CA",
     Type: "Full Time",
     Duration: "Jun 2023 - Oct 2023",
@@ -117,6 +123,7 @@ export const workDetails = [
   {
     Position: "Senior Quality Engineer",
     Company: `Optum Technology`,
+    Company_Link: "https://www.optum.com/en/",
     Location: "Fort Worth, TX",
     Type: "Full Time",
     Duration: "Oct 2017 - May 2022",

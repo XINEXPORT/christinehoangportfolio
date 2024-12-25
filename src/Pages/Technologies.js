@@ -40,10 +40,10 @@ function Technologies() {
   return (
     <main className="container mx-auto max-width mb-20 px-4 lg:px-8">
       <section>
-        <h1 className="text-2xl text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl text-black md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tech Stack
         </h1>
-        <p className="text-content py-2 lg:max-w-3xl mb-4">
+        <p className="text-black py-2 lg:max-w-3xl mb-4">
           Technologies I've been working with recently
         </p>
       </section>
@@ -59,7 +59,7 @@ function Technologies() {
         <img src={sass} title="Sass" alt="Sass" />
         <img src={bootstrap} title="Bootstrap" alt="Bootstrap" />
         <img src={jquery} title="jQuery" alt="jQuery" />
-        <img src={express} title="Express" alt="Bootstrap" />
+        <img src={express} title="Express" alt="Express" />
         <img src={nodejs} title="NodeJS" alt="NodeJS" />
         <img src={django} title="Django" alt="Django" />
         <img src={lodash} title="Lodash" alt="Lodash" />
@@ -71,11 +71,11 @@ function Technologies() {
         <img src={vitejs} title="Vite.JS" alt="Vite.JS" />
       </section>
       <section>
-        <h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl pt-10 text-black md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Tools
         </h1>
-        <p className="text-content py-2 lg:max-w-3xl mb-4">
-          Frameworks, Platforms, & Librairies
+        <p className="text-black py-2 lg:max-w-3xl mb-4">
+          Frameworks, Platforms, & Libraries
         </p>
       </section>
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-10 pt-6 glass mb-8">
