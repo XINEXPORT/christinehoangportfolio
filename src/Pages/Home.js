@@ -57,7 +57,7 @@ function Home() {
   }, []);
 
   return (
-    <main className="container max-width section md:flex justify-between items-center px-4 lg:px-8 py-10">
+    <main className="container max-width md:flex justify-between items-center px-4 lg:px-8 py-10">
       <div className="flex-1">
         <h1
           ref={h11}

@@ -10,7 +10,7 @@ function Contact() {
         For any questions, email me at
       </h1>
       <h3
-        className="text-center text-xl sm:text-2xl md:text-4xl lg:text-6xl 
+        className="text-center text-l sm:text-2xl md:text-4xl lg:text-6xl 
         bg-gradient-to-r from-blue-500 to-pink-700 bg-clip-text text-transparent 
         font-semibold md:font-bold pt-5 md:pt-10 md:pb-6 break-words"
       >

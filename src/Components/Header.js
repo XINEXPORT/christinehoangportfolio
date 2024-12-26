@@ -11,17 +11,17 @@ function Header() {
 
   return (
     <header className="container mx-auto md:flex justify-between items-center py-5 max-width mb-2 px-4 lg:px-8">
-      {/* Right-aligned toggle */}
-      <div className="flex justify-end w-full">
-        <div onClick={toggleClass} className="cursor-pointer">
-          <svg
-            className="stroke-dark-heading dark:stroke-white md:hidden"
-            width="25"
-            height="20"
-            viewBox="0 0 16 13"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
+    {/* Right-aligned toggle */}
+    <div className="flex justify-end w-full">
+      <div onClick={toggleClass} className="cursor-pointer">
+        <svg
+          className="stroke-dark-heading dark:stroke-white md:hidden"
+          width="25"
+          height="20"
+          viewBox="0 0 16 13"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
             <path
               d="M1.4375 1.3125H14.5625M1.4375 11.3125H14.5625H1.4375ZM1.4375 6.3125H14.5625H1.4375Z"
               strokeWidth="1.875"
