@@ -1,35 +1,35 @@
-import React, { useState } from 'react';
-import emailjs from '@emailjs/browser';
+import React, { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const EmailForm = () => {
-  const [name, setName] = useState('');
-  const [email, setEmail] = useState('');
-  const [message, setMessage] = useState('');
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = 'service_gilnphb';
-    const templateId = 'template_tj6slcj';
-    const publicKey = 'GVwpxX-t-a0VZM-8Q';
+    const serviceId = "service_gilnphb";
+    const templateId = "template_tj6slcj";
+    const publicKey = "GVwpxX-t-a0VZM-8Q";
 
     const templateParams = {
       from_name: name,
       from_email: email,
-      to_name: 'Christine',
+      to_name: "Christine",
       message: message,
     };
 
     emailjs
       .send(serviceId, templateId, templateParams, publicKey)
       .then((response) => {
-        console.log('Email sent successfully!', response);
-        setName('');
-        setEmail('');
-        setMessage('');
+        console.log("Email sent successfully!", response);
+        setName("");
+        setEmail("");
+        setMessage("");
       })
       .catch((error) => {
-        console.error('Error sending email:', error);
+        console.error("Error sending email:", error);
       });
   };
 
