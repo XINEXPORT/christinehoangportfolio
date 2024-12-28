@@ -9,9 +9,9 @@ const EmailForm = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    const serviceId = "service_gilnphb";
-    const templateId = "template_tj6slcj";
-    const publicKey = "GVwpxX-t-a0VZM-8Q";
+    const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
+    const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
+    const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
     const templateParams = {
       from_name: name,
