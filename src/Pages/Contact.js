@@ -1,36 +1,45 @@
 import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
+import axios from "axios";
 
-const EmailForm = () => {
+const EmailRestAPI = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [status, setStatus] = useState(null);
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
 
     const serviceId = process.env.REACT_APP_EMAILJS_SERVICE_ID;
     const templateId = process.env.REACT_APP_EMAILJS_TEMPLATE_ID;
     const publicKey = process.env.REACT_APP_EMAILJS_PUBLIC_KEY;
 
-    const templateParams = {
-      from_name: name,
-      from_email: email,
-      to_name: "Christine",
-      message: message,
+    const data = {
+      service_id: serviceId,
+      template_id: templateId,
+      user_id: publicKey,
+      template_params: {
+        from_name: name,
+        from_email: email,
+        to_name: "Web Wizard",
+        message: message,
+      },
     };
 
-    emailjs
-      .send(serviceId, templateId, templateParams, publicKey)
-      .then((response) => {
-        console.log("Email sent successfully!", response);
-        setName("");
-        setEmail("");
-        setMessage("");
-      })
-      .catch((error) => {
-        console.error("Error sending email:", error);
-      });
+    try {
+      const res = await axios.post(
+        "https://api.emailjs.com/api/v1.0/email/send",
+        data
+      );
+      console.log(res.data);
+      setStatus("Email sent successfully!");
+      setName("");
+      setEmail("");
+      setMessage("");
+    } catch (error) {
+      console.error("Error sending email:", error);
+      setStatus("Failed to send email.");
+    }
   };
 
   return (
@@ -98,10 +107,12 @@ const EmailForm = () => {
         type="submit"
         className="w-full bg-violet-500 text-white py-2 px-4 rounded-lg hover:bg-violet-600 transition-colors duration-300"
       >
-        Send
+        Send Email
       </button>
+
+      {status && <p className="text-center mt-4">{status}</p>}
     </form>
   );
 };
 
-export default EmailForm;
+export default EmailRestAPI;
