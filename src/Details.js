@@ -116,7 +116,7 @@ export const workDetails = [
     Duration: "Nov 2023 - Feb 2024",
   },
   {
-    Position: "Back-End and Data Engineering Product Manager",
+    Position: "Back-End and Data Engineering Project Manager",
     Company: `Syufy Enterprises`,
     Company_Link: "https://www.villasport.com/",
     Location: "San Rafael, CA",
