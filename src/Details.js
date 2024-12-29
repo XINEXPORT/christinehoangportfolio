@@ -108,14 +108,6 @@ export const workDetails = [
     Duration: "March 2024 - April 2024",
   },
   {
-    Position: "Full Stack Web Developer",
-    Company: `Devmountain`,
-    Company_Link: "https://devmountain.com/",
-    Location: "Dallas, TX",
-    Type: "Full Time",
-    Duration: "Nov 2023 - Feb 2024",
-  },
-  {
     Position: "Back-End and Data Engineering Project Manager",
     Company: `Syufy Enterprises`,
     Company_Link: "https://www.villasport.com/",
