@@ -59,7 +59,9 @@ export const personalDetails = {
   name: "Christine",
   tagline: "I am a Software Engineer based in Dallas",
   img: profile,
-  about: `I am an enthusiastic Software Engineer with an eye for detail, efficient design, and customer excellence. With a passion for making products that brings joy and ease, I strive for the highest quality and delivery for individuals and businesses.`,
+  about1: `Christine Hoang is a Software Engineer based in Dallas, Texas. She earned her Bachelor of Fine Arts degree in Sculpture from the University of Texas at Arlington.`,
+  about2: `Since graduating, she has worked as a technology professional for over 10 years, taking on various roles including Finance Analyst, Tech Support Specialist, Senior Quality Engineer, and Project Manager. She is currently enrolled at Dallas College to enhance her programming skills. `,
+  about3: `Christine enjoys living a healthy lifestyle, coding, and discovering creative ways to help communities in need.`,
 };
 
 // Enter your Social Media URLs here
