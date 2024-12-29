@@ -34,7 +34,7 @@ function About() {
         )}
       </section>
       <section className="glass">
-        <h1 className="text-2xl pt-10 text-black md:text-4xl xl:text-5xl xl:leading-tight font-bold">
+        <h1 className="text-2xl text-black md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Education
         </h1>
         {React.Children.toArray(

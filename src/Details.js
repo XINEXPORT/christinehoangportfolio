@@ -124,7 +124,7 @@ export const workDetails = [
     Duration: "Jun 2023 - Oct 2023",
   },
   {
-    Position: "Senior Quality Engineer",
+    Position: "Senior Quality Analyst",
     Company: `Optum Technology`,
     Company_Link: "https://www.optum.com/en/",
     Location: "Fort Worth, TX",

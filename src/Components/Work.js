@@ -8,7 +8,7 @@ function Work({ position, company, companyLink, location, type, duration }) {
       case "apprenticeship":
         return "bg-blue-400 text-white";
       default:
-        return "bg-gray-300 text-black";
+        return "bg-purple-400 text-white";
     }
   };
 
