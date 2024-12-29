@@ -8,7 +8,7 @@
   @apply lg:mx-auto lg:px-24 xl:px-48 px-5;
 }
 .bg-gradient {
-  @apply bg-gradient-to-r from-pink-200 via-purple-200 to-purple-500;
+  @apply bg-gradient-to-r from-white via-purple-100 to-blue-200;
 }
 .text-gradient {
   @apply bg-clip-text bg-gradient text-transparent;
