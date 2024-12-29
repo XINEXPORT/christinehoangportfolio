@@ -129,7 +129,7 @@ export const workDetails = [
     Company_Link: "https://www.optum.com/en/",
     Location: "Fort Worth, TX",
     Type: "Full Time",
-    Duration: "Oct 2017 - May 2022",
+    Duration: "Oct 2016 - May 2023",
   },
   {
     Position: "eBusiness Analyst",
