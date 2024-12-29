@@ -60,8 +60,9 @@ export const personalDetails = {
   tagline: "I am a Software Engineer based in Dallas",
   img: profile,
   about1: `Christine Hoang is a Software Engineer based in Dallas, Texas. She earned her Bachelor of Fine Arts degree in Sculpture from the University of Texas at Arlington.`,
-  about2: `Since graduating, she has worked as a technology professional for over 10 years, taking on various roles including Finance Analyst, Tech Support Specialist, Senior Quality Engineer, and Project Manager. She is currently enrolled at Dallas College to enhance her programming skills. `,
-  about3: `Christine enjoys living a healthy lifestyle, coding, and discovering creative ways to help communities in need.`,
+  about2: `She has worked as a technology professional, taking on various roles including Sales Analyst, Application Analyst, Senior Quality Engineer, and Project Manager.`,
+  about3: `Currently enrolled at Dallas College, Christine is refining her expertise in programming, with a focus on modern web development technologies and frameworks, such as React and .NET. Her technical skillset includes, but is not limited to, JavaScript, C#, Python, and SQL.`,
+  about4: `Christine enjoys living a healthy lifestyle, coding, and discovering creative ways to help communities in need.`
 };
 
 // Enter your Social Media URLs here
@@ -129,6 +130,22 @@ export const workDetails = [
     Location: "Fort Worth, TX",
     Type: "Full Time",
     Duration: "Oct 2017 - May 2022",
+  },
+  {
+    Position: "eBusiness Analyst",
+    Company: `BNSF Railway Inc.`,
+    Company_Link: "https://bnsf.com/",
+    Location: "Fort Worth, TX",
+    Type: "Full Time",
+    Duration: "Dec 2015 - Oct 2016",
+  },
+  {
+    Position: "Sales Analyst",
+    Company: `PhysAssist Scribes`,
+    Company_Link: "https://www.teamhealth.com/",
+    Location: "Fort Worth, TX",
+    Type: "Full Time",
+    Duration: "Mar 2013 - Oct 2014",
   },
 ];
 

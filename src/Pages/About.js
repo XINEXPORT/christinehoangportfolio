@@ -9,9 +9,10 @@ function About() {
         <h1 className="text-2xl text-black md:text-4xl xl:text-5xl xl:leading-tight font-bold">
           Bio
         </h1>
-        <p className="text-black py-6 lg:max-w-3">{personalDetails.about1}</p>
+        <p className="text-black py-4 lg:max-w-3">{personalDetails.about1}</p>
         <p className="text-black lg:max-w-3">{personalDetails.about2}</p>
-        <p className="text-black py-6 lg:max-w-3">{personalDetails.about3}</p>
+        <p className="text-black py-4 lg:max-w-3">{personalDetails.about3}</p>
+        <p className="text-black lg:max-w-3">{personalDetails.about4}</p>
       </section>
       <section className="glass mb-8">
         <h1 className="text-2xl text-black md:text-4xl xl:text-5xl xl:leading-tight font-bold">
