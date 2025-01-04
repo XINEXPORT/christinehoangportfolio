@@ -11,13 +11,13 @@ function Header() {
   };
 
   return (
-    <header className="container mx-auto md:flex justify-between items-center py-5 max-width mb-2 px-4 lg:px-8">
-      <div className="flex items-center space-x-4">
+<header className="container mx-auto md:flex justify-between items-center py-5 max-width mb-2 px-4 lg:px-8">
+  <div className="flex items-center space-x-4">
         <a href={linkedin} target="_blank" rel="noreferrer noopener">
           <svg
             className="fill-violet-600"
-            width="30"
-            height="30"
+            width="40"
+            height="40"
             viewBox="0 0 30 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -28,8 +28,8 @@ function Header() {
         <a href={github} target="_blank" rel="noreferrer noopener">
           <svg
             className="fill-violet-600"
-            width="30"
-            height="30"
+            width="40"
+            height="40"
             viewBox="0 0 30 30"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -43,13 +43,12 @@ function Header() {
         </a>
       </div>
 
-      {/* Right Section: Hamburger and Navigation */}
-      <div className="flex justify-end w-full">
+      <div className="flex items-center justify-end">
         <div onClick={toggleClass} className="cursor-pointer">
           <svg
-            className="stroke-dark-heading dark:stroke-white md:hidden"
-            width="25"
-            height="20"
+            className="stroke-black dark:stroke-white md:hidden"
+            width="35"
+            height="30"
             viewBox="0 0 16 13"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +67,7 @@ function Header() {
           !isOpen ? "hidden" : null
         } text-center md:flex justify-between text-black`}
       >
-        <ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
+        <ul className="dark:text-light-content font-medium text-xl md:flex items-center md:space-x-5 md:mr-10">
           <li className="pb-1 md:pb-0">
             <NavLink to="/" onClick={toggleClass}>
               Home
