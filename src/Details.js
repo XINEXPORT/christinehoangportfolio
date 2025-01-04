@@ -252,3 +252,8 @@ export const projectDetails = [
 export const contactDetails = {
   email: "christine.hoang@gamesforlove.org",
 };
+
+//CV Details
+export const cvDetails = {
+  cvUrl: "https://docs.google.com/document/d/e/2PACX-1vSk3gaH4mUdaL6bgw4IFBWoUbyetsyGKxh02yw0NFJpSwKFLVz7vP7-euH8Qt6V3feCjjjfHLkrYvxM/pub?embedded=true",
+};
