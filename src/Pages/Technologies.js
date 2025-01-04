@@ -49,7 +49,6 @@ function Technologies() {
         </p>
       </section>
 
-      {/* Apply wrapper class */}
       <section className="grid grid-cols-4 md:grid-cols-5 lg:grid-cols-7 items-center gap-6 pt-6 glass mb-8 img-wrapper">
         <img src={react} title="React" alt="React" />
         <img src={js} title="JavaScript" alt="JavaScript" />

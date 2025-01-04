@@ -5,7 +5,6 @@ import { personalDetails, workDetails, eduDetails } from "../Details";
 function About() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Main content */}
       <main className="container mx-auto max-width mb-20 px-4 lg:px-8 flex-grow">
         <section className="glass mb-8">
           <h1 className="text-2xl text-black md:text-4xl xl:text-5xl xl:leading-tight font-bold">
@@ -39,8 +38,8 @@ function About() {
                   type={Type}
                   duration={Duration}
                 />
-              )
-            )
+              ),
+            ),
           )}
         </section>
 
@@ -66,8 +65,8 @@ function About() {
                   type={Type}
                   duration={Duration}
                 />
-              )
-            )
+              ),
+            ),
           )}
         </section>
       </main>

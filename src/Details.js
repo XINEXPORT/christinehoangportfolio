@@ -1,7 +1,3 @@
-// Enter all your detials in this file
-// Logo images
-import logogradient from "./assets/logo.svg";
-import logo from "./assets/logo2.svg";
 // Profile Image
 import profile from "./assets/profile.jpg";
 // Tech stack images
@@ -39,22 +35,15 @@ import azuredevops from "./assets/techstack/azuredevops.png";
 import socketio from "./assets/techstack/socketio.png";
 import jquery from "./assets/techstack/jquery.png";
 
-// Porject Images
+// Project Images
 import zest from "./assets/projects/zest.jpg";
 import texascodingclub from "./assets/projects/texascodingclub.jpg";
 import guesstheanimal from "./assets/projects/guesstheanimal.jpg";
 import vibes from "./assets/projects/vibes.jpg";
 import recordshop from "./assets/projects/recordshop.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 import carebuddy from "./assets/projects/carebuddy.jpg";
 
-// Logos
-export const logos = {
-  logogradient: logogradient,
-  logo: logo,
-};
-
-// Enter your Personal Details here
+// Biography
 export const personalDetails = {
   name: "Christine",
   tagline: "I am a Software Engineer based in Dallas",
@@ -62,18 +51,18 @@ export const personalDetails = {
   about1: `Christine Hoang is a Software Engineer based in Dallas, Texas. She earned her Bachelor of Fine Arts degree in Sculpture from the University of Texas at Arlington.`,
   about2: `She has worked as a technology professional, taking on various roles including Sales Analyst, Application Analyst, Senior Quality Engineer, and Project Manager.`,
   about3: `Currently enrolled at Dallas College, Christine is refining her expertise in programming, with a focus on modern web development technologies and frameworks, such as React and .NET. Her technical skillset includes, but is not limited to, JavaScript, C#, Python, and SQL.`,
-  about4: `Christine enjoys living a healthy lifestyle, coding, and discovering creative ways to help communities in need.`
+  about4: `Christine enjoys living a healthy lifestyle, coding, and discovering creative ways to help communities in need.`,
 };
 
-// Enter your Social Media URLs here
+// Social Media URLs
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/in/christine-hoang-profile/",
+  linkedin: "https://www.linkedin.com/in/christine-hoang-profile/",
   github: "https://github.com/XINEXPORT",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
 };
 
-// Enter your Work Experience here
+// Work Experience
 export const workDetails = [
   {
     Position: "Web Developer",
@@ -141,7 +130,7 @@ export const workDetails = [
   },
 ];
 
-// Enter your Education Details here
+// Education Details
 export const eduDetails = [
   {
     Position: "C# Developer Certificate ",
@@ -203,7 +192,7 @@ export const techStackDetails = {
   jquery,
 };
 
-// Enter your Project Details here
+// Project Details
 export const projectDetails = [
   {
     title: "CareBuddy",
@@ -257,18 +246,9 @@ export const projectDetails = [
     previewLink: "https://the-record-shop.onrender.com/",
     githubLink: "https://github.com/XINEXPORT/record-shop",
   },
-  //   {
-  //     title: "Project title 6",
-  //     image: projectImage6,
-  //     description: `This is sample project description random things are here in description This is sample
-  // project lorem ipsum generator for dummy content`,
-  //     techstack: "HTML/CSS, JavaScript",
-  //     previewLink: "https://google.com",
-  //     githubLink: "https://github.com",
-  //   },
 ];
 
-// Enter your Contact Details here
+// Contact Details
 export const contactDetails = {
   email: "christine.hoang@gamesforlove.org",
 };
