@@ -1,6 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
+import Footer from "../Components/Footer";
 
 function Home() {
   const { name, tagline, img } = personalDetails;
@@ -44,7 +45,6 @@ function Home() {
         </h2>
       </div>
 
-      {/* Right Section: Image */}
       <div className="md:mt-0 flex-1 flex justify-center md:justify-end">
         <img
           ref={myimageref}
@@ -53,6 +53,7 @@ function Home() {
           alt="Profile"
         />
       </div>
+      {/* <Footer/> */}
     </main>
   );
 }

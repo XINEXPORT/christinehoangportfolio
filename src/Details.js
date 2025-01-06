@@ -48,7 +48,7 @@ export const personalDetails = {
   name: "Christine",
   tagline: "I am a Software Engineer based in Dallas",
   img: profile,
-  about1: `Christine Hoang is a Software Engineer based in Dallas, Texas. She earned her Bachelor of Fine Arts degree in Sculpture from the University of Texas at Arlington.`,
+  about1: `Christine Hoang is a Software Engineer based in Dallas, Texas.`,
   about2: `She has worked as a technology professional, taking on various roles including Sales Analyst, Application Analyst, Senior Quality Engineer, and Project Manager.`,
   about3: `Currently enrolled at Dallas College, Christine is refining her expertise in programming, with a focus on modern web development technologies and frameworks, such as React and .NET. Her technical skillset includes, but is not limited to, JavaScript, C#, Python, and SQL.`,
   about4: `Christine enjoys living a healthy lifestyle, coding, and discovering creative ways to help communities in need.`,

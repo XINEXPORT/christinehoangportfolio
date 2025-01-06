@@ -88,11 +88,11 @@ function Header() {
               Technologies
             </NavLink>
           </li>
-          <li className="pb-1 md:pb-0">
+          {/* <li className="pb-1 md:pb-0">
             <NavLink to="/cv" onClick={toggleClass}>
               CV
             </NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink to="/contact" onClick={toggleClass}>
               Contact
