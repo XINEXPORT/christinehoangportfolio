@@ -11,8 +11,8 @@ function Header() {
   };
 
   return (
-<header className="container mx-auto md:flex justify-between items-center py-5 max-width mb-2 px-4 lg:px-8">
-  <div className="flex items-center space-x-4">
+    <header className="container mx-auto md:flex justify-between items-center py-5 max-width mb-2 px-4 lg:px-8">
+      <div className="flex items-center space-x-4">
         <a href={linkedin} target="_blank" rel="noreferrer noopener">
           <svg
             className="fill-violet-600"
