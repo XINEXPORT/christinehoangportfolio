@@ -235,7 +235,7 @@ export const projectDetails = [
     description: `Vibes is a dynamic social platform enabling users to generate live audio soundscape performances in interactive rooms, fostering real-time collaboration between hosts and listeners.`,
     techstack:
       "React, JavaScript, CSS, Express.js, Node.js, Sequelize, PostgreSQL, Vite, Axios, Socket.io, Multer, Redux, npm",
-    previewLink: "https://dallas-ft3-vibes.onrender.com/",
+    previewLink: "",
     githubLink: "https://github.com/XINEXPORT/Vibes",
   },
   {
