@@ -4,7 +4,6 @@ import { techStackDetails } from "../Details";
 function Technologies() {
   const {
     html,
-    css,
     js,
     react,
     redux,
@@ -23,7 +22,6 @@ function Technologies() {
     python,
     lodash,
     postgresql,
-    typescript,
     axios,
     vitejs,
     visualstudio,

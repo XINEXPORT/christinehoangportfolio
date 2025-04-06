@@ -45,7 +45,6 @@ import texascodingclub from "./assets/projects/texascodingclub.jpg";
 import guesstheanimal from "./assets/projects/guesstheanimal.jpg";
 import vibes from "./assets/projects/vibes.jpg";
 import recordshop from "./assets/projects/recordshop.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
 import carebuddy from "./assets/projects/carebuddy.jpg";
 
 // Logos
